@@ -1,0 +1,62 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/granath93/kgb_whisky"
+  },
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^15.13.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "contentful": "^9.1.29",
+    "craco": "^0.0.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-jss": "^10.9.0",
+    "react-router-dom": "6",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.6.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
+    "server": "node -r ./src/server.js",
+    "check-types": "yarn run tsc -b",
+    "lint:fix": "yarn run eslint --max-warnings 0 --fix --ext .js,.jsx,.ts,.tsx .",
+    "format:check": "yarn run prettier --check \"**/*.{js,jsx,ts,tsx,md,mdx,yaml,yml}\"",
+    "format:fix": "yarn run prettier --loglevel warn --write \"**/*.{js,jsx,ts,tsx,md,mdx,yaml,yml}\"",
+    "fix": "yarn format:fix && yarn lint:fix && yarn check-types"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "2.6.2"
+  }
+}

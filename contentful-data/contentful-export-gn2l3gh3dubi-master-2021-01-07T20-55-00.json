@@ -1,0 +1,3084 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "layoutHeroImage",
+        "type": "ContentType",
+        "createdAt": "2020-11-13T17:31:19.219Z",
+        "updatedAt": "2020-11-13T17:31:20.936Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2020-11-13T17:31:20.936Z",
+        "firstPublishedAt": "2020-11-13T17:31:20.936Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Layout > Hero Image",
+      "description": "A hero image and header text.",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "regexp": {
+                "pattern": ".+>.+",
+                "flags": null
+              },
+              "message": "Use the title format \"Topic name > keyword description\"."
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "headline",
+          "name": "Headline",
+          "type": "Symbol",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "backgroundImage",
+          "name": "Background Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "whiskey",
+        "type": "ContentType",
+        "createdAt": "2021-01-03T13:29:29.876Z",
+        "updatedAt": "2021-01-07T19:26:03.446Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 17,
+        "publishedAt": "2021-01-07T19:26:03.446Z",
+        "firstPublishedAt": "2021-01-03T13:29:30.381Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 9,
+        "version": 18,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Whiskey",
+      "description": "",
+      "fields": [
+        {
+          "id": "tastedate",
+          "name": "Tastedate",
+          "type": "Date",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "selector",
+          "name": "Selector",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "area",
+          "name": "Area",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "price",
+          "name": "Price",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "volume",
+          "name": "Volume",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "weight",
+          "name": "Weight",
+          "type": "Number",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "distillery",
+          "name": "Distillery",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "alcohol",
+          "name": "Alcohol",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "taste",
+          "name": "Taste",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "nose",
+          "name": "Nose",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "finnish",
+          "name": "Finnish",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "smokiness",
+          "name": "Smokiness",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "inStock",
+          "name": "In stock",
+          "type": "Boolean",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "storage",
+          "name": "Storage",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "extraInfo",
+          "name": "Extra Info",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "boardMembers",
+        "type": "ContentType",
+        "createdAt": "2021-01-03T13:47:00.932Z",
+        "updatedAt": "2021-01-03T14:36:39.020Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-01-03T14:36:39.020Z",
+        "firstPublishedAt": "2021-01-03T13:47:01.436Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Board members",
+      "description": "",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "mainContactMember",
+          "name": "Main contact member",
+          "type": "Boolean",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "phoneNumber",
+          "name": "Phone number",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "email",
+          "name": "Email",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "nextTastingEvent",
+        "type": "ContentType",
+        "createdAt": "2021-01-03T17:31:38.216Z",
+        "updatedAt": "2021-01-03T19:44:12.926Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-01-03T19:44:12.926Z",
+        "firstPublishedAt": "2021-01-03T17:31:39.059Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "displayField": null,
+      "name": "Next tasting event",
+      "description": "",
+      "fields": [
+        {
+          "id": "info",
+          "name": "Info",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "size": {
+                "min": null,
+                "max": 400
+              }
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "date",
+          "name": "Date",
+          "type": "Date",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "place",
+          "name": "place",
+          "type": "Location",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "gn2l3gh3dubi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2020-11-13T17:31:21.061Z",
+        "createdBy": {
+          "sys": {
+            "id": "7erXh0oL5DK33k8VzBvV4a",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2020-11-13T17:31:24.177Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7erXh0oL5DK33k8VzBvV4a",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "layoutHeroImage",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "The title for content editors to find entries in Contentful. It is not necessarily relevant for display in connected applications."
+          },
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "headline",
+          "settings": {
+            "helpText": "The short, emphasized headline of this hero module. An optional field."
+          },
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "backgroundImage",
+          "settings": {
+            "helpText": "Full-size hero image displayed behind the headline."
+          },
+          "widgetId": "assetLinkEditor"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "gn2l3gh3dubi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 18,
+        "createdAt": "2021-01-03T13:29:30.472Z",
+        "createdBy": {
+          "sys": {
+            "id": "7erXh0oL5DK33k8VzBvV4a",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-01-07T19:26:03.945Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7erXh0oL5DK33k8VzBvV4a",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "whiskey",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "tastedate",
+          "widgetId": "datePicker",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "selector",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "area",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "price",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "volume",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "weight",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "distillery",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "alcohol",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "taste",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "nose",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "finnish",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "smokiness",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "inStock",
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "storage",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "extraInfo",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "gn2l3gh3dubi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 8,
+        "createdAt": "2021-01-03T13:47:01.556Z",
+        "createdBy": {
+          "sys": {
+            "id": "7erXh0oL5DK33k8VzBvV4a",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-01-03T14:36:39.826Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7erXh0oL5DK33k8VzBvV4a",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "boardMembers",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "mainContactMember",
+          "widgetId": "boolean",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "phoneNumber",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "email",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "gn2l3gh3dubi",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2021-01-03T17:31:39.178Z",
+        "createdBy": {
+          "sys": {
+            "id": "7erXh0oL5DK33k8VzBvV4a",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-01-03T19:44:13.565Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7erXh0oL5DK33k8VzBvV4a",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "nextTastingEvent",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "info",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "date",
+          "widgetId": "datePicker",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "place",
+          "widgetId": "locationEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "5EpxYazSju3JtjzLFKbGzk",
+        "type": "Entry",
+        "createdAt": "2021-01-03T13:29:40.740Z",
+        "updatedAt": "2021-01-07T19:36:47.789Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 18,
+        "publishedAt": "2021-01-07T19:36:47.789Z",
+        "firstPublishedAt": "2021-01-03T13:30:24.403Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 19,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "whiskey"
+          }
+        }
+      },
+      "fields": {
+        "tastedate": {
+          "en-US": "2014-02-27T00:00+01:00"
+        },
+        "selector": {
+          "en-US": "Kvist"
+        },
+        "name": {
+          "en-US": "Longmom 16 Years"
+        },
+        "area": {
+          "en-US": "Speyside"
+        },
+        "price": {
+          "en-US": 632
+        },
+        "volume": {
+          "en-US": 70
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5bu0cK0aFKeqxc7TYpXS7T"
+            }
+          }
+        },
+        "weight": {
+          "en-US": 788
+        },
+        "distillery": {
+          "en-US": "Longmorn"
+        },
+        "taste": {
+          "en-US": "Nyanserad, maltig smak med fatkaraktär, inslag av torkad frukt, knäck, örter, päron, vanilj och apelsinskal."
+        },
+        "nose": {
+          "en-US": "Nyanserad, maltig doft med fatkaraktär, inslag av torkad frukt, knäck, örter, päron, choklad och vanilj."
+        },
+        "smokiness": {
+          "en-US": "1/8"
+        },
+        "inStock": {
+          "en-US": true
+        },
+        "storage": {
+          "en-US": "Bourbon 16år"
+        },
+        "extraInfo": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "More more more",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "6xs2EdroPAXuvYIF0En4NF",
+        "type": "Entry",
+        "createdAt": "2021-01-03T13:47:11.529Z",
+        "updatedAt": "2021-01-03T13:47:43.531Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:47:43.531Z",
+        "firstPublishedAt": "2021-01-03T13:47:43.531Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "boardMembers"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Carl Anders Granath"
+        },
+        "mainContactMember": {
+          "en-US": true
+        },
+        "phoneNumber": {
+          "en-US": "072-1746727"
+        },
+        "email": {
+          "en-US": "info@kgbwhisky.se"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "4JUJb9eFW8UBog1QwNQ8yG",
+        "type": "Entry",
+        "createdAt": "2021-01-03T13:47:50.177Z",
+        "updatedAt": "2021-01-03T14:37:11.858Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-01-03T14:37:11.858Z",
+        "firstPublishedAt": "2021-01-03T13:48:39.921Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "boardMembers"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Carl Anders Granath"
+        },
+        "mainContactMember": {
+          "en-US": false
+        },
+        "phoneNumber": {
+          "en-US": "072-1746727"
+        },
+        "email": {
+          "en-US": "carlagranath@gmail.com"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "30wKAn4o77O7Pa7uFjKvTo"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "amErIfPrC9BSM73P0dAWx",
+        "type": "Entry",
+        "createdAt": "2021-01-03T13:50:29.352Z",
+        "updatedAt": "2021-01-03T13:59:16.563Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-01-03T13:59:16.563Z",
+        "firstPublishedAt": "2021-01-03T13:53:07.272Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "boardMembers"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Åke Kvist"
+        },
+        "mainContactMember": {
+          "en-US": false
+        },
+        "phoneNumber": {
+          "en-US": "0730-54 75 61"
+        },
+        "email": {
+          "en-US": "6014.kvist@gmail.com"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4B7LxD7h3VcUwvzbQJEXoS"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "5SE95l5bvzFsYMftDKGIGn",
+        "type": "Entry",
+        "createdAt": "2021-01-03T13:53:11.716Z",
+        "updatedAt": "2021-01-03T13:54:25.099Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-01-03T13:54:25.099Z",
+        "firstPublishedAt": "2021-01-03T13:54:25.099Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "boardMembers"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Anders Granath"
+        },
+        "mainContactMember": {
+          "en-US": false
+        },
+        "phoneNumber": {
+          "en-US": "070-420 07 43"
+        },
+        "email": {
+          "en-US": "Granne84@gmail.com"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7E0xLOS7KVhIb7aPwLuQRS"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "3epVAyVfAPk8ny8ftVH77W",
+        "type": "Entry",
+        "createdAt": "2021-01-03T13:54:47.940Z",
+        "updatedAt": "2021-01-03T13:55:28.180Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:55:28.180Z",
+        "firstPublishedAt": "2021-01-03T13:55:28.180Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "boardMembers"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Bengt - Göran Kjellner"
+        },
+        "mainContactMember": {
+          "en-US": false
+        },
+        "phoneNumber": {
+          "en-US": "070-523 37 00"
+        },
+        "email": {
+          "en-US": "bengt-goran.kjellner@kjellnersror.se"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1RzzMoaxfOEI7cPFJqxpwc"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "72Eq0KWU4Yuz42nA4UC1wB",
+        "type": "Entry",
+        "createdAt": "2021-01-03T13:55:31.750Z",
+        "updatedAt": "2021-01-03T13:56:14.920Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:56:14.920Z",
+        "firstPublishedAt": "2021-01-03T13:56:14.920Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "boardMembers"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Göran Bergh"
+        },
+        "mainContactMember": {
+          "en-US": false
+        },
+        "phoneNumber": {
+          "en-US": "070-590 99 79"
+        },
+        "email": {
+          "en-US": "goran.bergh@skaraverken.se"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2ZPiG0Dmhe8q9aQh3hX3Yb"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "6KLmFLaYW7Jy8nu40jY1W3",
+        "type": "Entry",
+        "createdAt": "2021-01-03T13:56:18.604Z",
+        "updatedAt": "2021-01-03T13:56:55.959Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:56:55.959Z",
+        "firstPublishedAt": "2021-01-03T13:56:55.959Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "boardMembers"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Daniel Bergh"
+        },
+        "mainContactMember": {
+          "en-US": false
+        },
+        "phoneNumber": {
+          "en-US": "070-380 87 06"
+        },
+        "email": {
+          "en-US": "daniel.bergh@skaraverken.se"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "dZ8l59eDxd65pzRcHxXd2"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "3TrbyE5nQG8XhECVtKSyMn",
+        "type": "Entry",
+        "createdAt": "2021-01-03T13:56:58.628Z",
+        "updatedAt": "2021-01-03T13:57:45.724Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:57:45.724Z",
+        "firstPublishedAt": "2021-01-03T13:57:45.724Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "boardMembers"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Jens Berntsson"
+        },
+        "mainContactMember": {
+          "en-US": false
+        },
+        "phoneNumber": {
+          "en-US": "070-766 31 69"
+        },
+        "email": {
+          "en-US": "jensa.jung@gmail.com"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3hNSlvgRU1ofRw4FVk2wM7"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "6Kus85Z9fAY16njPH9jvim",
+        "type": "Entry",
+        "createdAt": "2021-01-03T13:57:49.284Z",
+        "updatedAt": "2021-01-03T13:58:40.826Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:58:40.826Z",
+        "firstPublishedAt": "2021-01-03T13:58:40.826Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "boardMembers"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Fredrik Skoog"
+        },
+        "mainContactMember": {
+          "en-US": false
+        },
+        "phoneNumber": {
+          "en-US": "073-913 11 15"
+        },
+        "email": {
+          "en-US": "fskoog22@hotmail.com"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5AfasAeQ8CFEOaKBCbiAWT"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "4H5gvVI7uTAWpGxwnzFiu7",
+        "type": "Entry",
+        "createdAt": "2021-01-03T20:08:38.698Z",
+        "updatedAt": "2021-01-07T19:29:53.773Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 19,
+        "publishedAt": "2021-01-07T19:29:53.773Z",
+        "firstPublishedAt": "2021-01-03T20:09:07.498Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 20,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "whiskey"
+          }
+        }
+      },
+      "fields": {
+        "tastedate": {
+          "en-US": "2014-03-27T00:00+01:00"
+        },
+        "selector": {
+          "en-US": "G Bergh"
+        },
+        "name": {
+          "en-US": "Nikka Yoichi"
+        },
+        "area": {
+          "en-US": "Japan"
+        },
+        "price": {
+          "en-US": 599
+        },
+        "volume": {
+          "en-US": 70
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5diwPUrH6QLKOrtDaXkvEx"
+            }
+          }
+        },
+        "weight": {
+          "en-US": 548
+        },
+        "distillery": {
+          "en-US": "The Nikka Whisky Distilling Co"
+        },
+        "taste": {
+          "en-US": "Balanserad, maltig rökig smak med fatkaraktär, inslag av honung, halm, aprikos, nötter och jod."
+        },
+        "nose": {
+          "en-US": "Nyanserad, maltig, aningen rökig doft med fatkaraktär, inslag av päron, äppelblommor, honung och smörkola."
+        },
+        "smokiness": {
+          "en-US": "1/2"
+        },
+        "inStock": {
+          "en-US": true
+        },
+        "storage": {
+          "en-US": "Bourbon + Sherry 10år"
+        },
+        "extraInfo": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Hi ho",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "1usi9xlVErGWipXskbafke",
+        "type": "Entry",
+        "createdAt": "2021-01-03T20:30:27.046Z",
+        "updatedAt": "2021-01-03T20:31:24.597Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-01-03T20:31:24.597Z",
+        "firstPublishedAt": "2021-01-03T20:31:24.597Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "nextTastingEvent"
+          }
+        }
+      },
+      "fields": {
+        "info": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Välkommen välkommen!",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              }
+            ]
+          }
+        },
+        "date": {
+          "en-US": "2021-01-08T18:00+01:00"
+        },
+        "place": {
+          "en-US": {
+            "lon": 12.99545,
+            "lat": 58.17064
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "UXiodHapL6Lu4lDJX60Hr",
+        "type": "Entry",
+        "createdAt": "2021-01-07T19:29:58.114Z",
+        "updatedAt": "2021-01-07T19:33:59.517Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 14,
+        "publishedAt": "2021-01-07T19:33:59.517Z",
+        "firstPublishedAt": "2021-01-07T19:33:59.517Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 15,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "whiskey"
+          }
+        }
+      },
+      "fields": {
+        "tastedate": {
+          "en-US": "2014-04-24T00:00+01:00"
+        },
+        "selector": {
+          "en-US": "J Berntsson"
+        },
+        "name": {
+          "en-US": "Bunnahabhain Toiteach (Toch Chach)"
+        },
+        "area": {
+          "en-US": "Islay"
+        },
+        "price": {
+          "en-US": 571
+        },
+        "volume": {
+          "en-US": 70
+        },
+        "weight": {
+          "en-US": 766
+        },
+        "distillery": {
+          "en-US": "Bunnahabhain (Islay)"
+        },
+        "taste": {
+          "en-US": "Maltig, tydligt rökig smak med fatkaraktär, inslag av ljunghonung, ostronskal, halm, vanilj, jod och citrus."
+        },
+        "nose": {
+          "en-US": "Stor, tydligt rökig doft med fatkaraktär, inslag av ljunghonung, ostronskal, halm, vanilj, citrus och tjära."
+        },
+        "finnish": {
+          "en-US": "En söt kolaklubba doppad i aska från en eldstad har legat på ett bord och smält i solen. Din tandborste har använts för att göra rent bordet och nu står du som ett fån och borstar tänderna utan tandkräm."
+        },
+        "smokiness": {
+          "en-US": "3/2"
+        },
+        "inStock": {
+          "en-US": true
+        },
+        "storage": {
+          "en-US": "Bourbon & sherryfat, 10år"
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "4bJLZuzUEBQNASoFAWcU90",
+        "type": "Entry",
+        "createdAt": "2021-01-07T19:36:59.651Z",
+        "updatedAt": "2021-01-07T19:39:29.695Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2021-01-07T19:39:29.695Z",
+        "firstPublishedAt": "2021-01-07T19:39:29.695Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "whiskey"
+          }
+        }
+      },
+      "fields": {
+        "tastedate": {
+          "en-US": "2014-05-21T00:00+01:00"
+        },
+        "selector": {
+          "en-US": "B-G Kjellner"
+        },
+        "name": {
+          "en-US": "Ben Riach Matured in Sherry Wood 12 Years"
+        },
+        "area": {
+          "en-US": "Speyside"
+        },
+        "price": {
+          "en-US": 459
+        },
+        "volume": {
+          "en-US": 70
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3Rsla8fgmv8GtL0Af5l89C"
+            }
+          }
+        },
+        "weight": {
+          "en-US": 701
+        },
+        "distillery": {
+          "en-US": "GlenDronach Distillery"
+        },
+        "taste": {
+          "en-US": "Russin, sherry, läder, mörk choklad."
+        },
+        "nose": {
+          "en-US": "Många söta toner, körsbär, bitter marmelad, mörka bär, gräs och kola."
+        },
+        "finnish": {
+          "en-US": "Kommer en behaglig, lite bitande pepprighet."
+        },
+        "inStock": {
+          "en-US": true
+        },
+        "storage": {
+          "en-US": "Sherryfat, 12år"
+        },
+        "extraInfo": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "BenRiach sherry matured 12 yoÿ är en av de mer omtalade av BenRiach många lanseringar de senaste åren. Den består av klassisk sherrylagrad whisky som är minst tolv år gammal. De stora faten har tidigare var värdar för de smakrika sherrysorterna Oloroso och Pedro Ximenes, vilket tillför massor av smak, djup och en attraktiv djupröd färg till whiskyn. BenRiach sherry matured 12 yo buteljeras vid 46 procent.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "4B7LxD7h3VcUwvzbQJEXoS",
+        "type": "Asset",
+        "createdAt": "2021-01-03T13:52:29.294Z",
+        "updatedAt": "2021-01-03T13:52:56.867Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:52:56.867Z",
+        "firstPublishedAt": "2021-01-03T13:52:56.867Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Åke"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/gn2l3gh3dubi/4B7LxD7h3VcUwvzbQJEXoS/d91e8ec350abead2d189e59de46891e5/Ake.png",
+            "details": {
+              "size": 96489,
+              "image": {
+                "width": 225,
+                "height": 225
+              }
+            },
+            "fileName": "Ake.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "7E0xLOS7KVhIb7aPwLuQRS",
+        "type": "Asset",
+        "createdAt": "2021-01-03T13:53:56.394Z",
+        "updatedAt": "2021-01-03T13:54:11.831Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:54:11.831Z",
+        "firstPublishedAt": "2021-01-03T13:54:11.831Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Anders Granath"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/gn2l3gh3dubi/7E0xLOS7KVhIb7aPwLuQRS/f2fb4abd6230fc71ee5c302e661cefa6/anders.png",
+            "details": {
+              "size": 87044,
+              "image": {
+                "width": 225,
+                "height": 225
+              }
+            },
+            "fileName": "anders.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "1RzzMoaxfOEI7cPFJqxpwc",
+        "type": "Asset",
+        "createdAt": "2021-01-03T13:55:06.950Z",
+        "updatedAt": "2021-01-03T13:55:23.738Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:55:23.738Z",
+        "firstPublishedAt": "2021-01-03T13:55:23.738Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "BG Kjellner"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/gn2l3gh3dubi/1RzzMoaxfOEI7cPFJqxpwc/8f166791638ad58d1b9bdc1e9b87db9b/b-g.png",
+            "details": {
+              "size": 84751,
+              "image": {
+                "width": 225,
+                "height": 225
+              }
+            },
+            "fileName": "b-g.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "2ZPiG0Dmhe8q9aQh3hX3Yb",
+        "type": "Asset",
+        "createdAt": "2021-01-03T13:55:50.041Z",
+        "updatedAt": "2021-01-03T13:56:12.271Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:56:12.271Z",
+        "firstPublishedAt": "2021-01-03T13:56:12.271Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Göran Bergh"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/gn2l3gh3dubi/2ZPiG0Dmhe8q9aQh3hX3Yb/2faaf490bb4273f3c994907aed9216fb/Goran.png",
+            "details": {
+              "size": 143398,
+              "image": {
+                "width": 225,
+                "height": 224
+              }
+            },
+            "fileName": "Goran.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "dZ8l59eDxd65pzRcHxXd2",
+        "type": "Asset",
+        "createdAt": "2021-01-03T13:56:34.709Z",
+        "updatedAt": "2021-01-03T13:56:51.807Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:56:51.807Z",
+        "firstPublishedAt": "2021-01-03T13:56:51.807Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Daniel Bergh"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/gn2l3gh3dubi/dZ8l59eDxd65pzRcHxXd2/8e4189fb488668318d8357cc9e9cf969/Daniel.png",
+            "details": {
+              "size": 141745,
+              "image": {
+                "width": 225,
+                "height": 225
+              }
+            },
+            "fileName": "Daniel.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "3hNSlvgRU1ofRw4FVk2wM7",
+        "type": "Asset",
+        "createdAt": "2021-01-03T13:57:23.460Z",
+        "updatedAt": "2021-01-03T13:57:40.121Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:57:40.121Z",
+        "firstPublishedAt": "2021-01-03T13:57:40.121Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Jens Berntsson"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/gn2l3gh3dubi/3hNSlvgRU1ofRw4FVk2wM7/c67637a8eef5e104f64e2fd69de36da9/Jens.png",
+            "details": {
+              "size": 133155,
+              "image": {
+                "width": 225,
+                "height": 225
+              }
+            },
+            "fileName": "Jens.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "5AfasAeQ8CFEOaKBCbiAWT",
+        "type": "Asset",
+        "createdAt": "2021-01-03T13:58:03.575Z",
+        "updatedAt": "2021-01-03T13:58:35.056Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-03T13:58:35.056Z",
+        "firstPublishedAt": "2021-01-03T13:58:35.056Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Fredrik Skoog"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/gn2l3gh3dubi/5AfasAeQ8CFEOaKBCbiAWT/fd74a0be6105aaab878c855228a53eff/Skoog.png",
+            "details": {
+              "size": 142449,
+              "image": {
+                "width": 225,
+                "height": 225
+              }
+            },
+            "fileName": "Skoog.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "30wKAn4o77O7Pa7uFjKvTo",
+        "type": "Asset",
+        "createdAt": "2021-01-03T14:36:47.645Z",
+        "updatedAt": "2021-01-03T14:37:09.088Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-01-03T14:37:09.088Z",
+        "firstPublishedAt": "2021-01-03T14:37:09.088Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Carl Anders Granath"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/gn2l3gh3dubi/30wKAn4o77O7Pa7uFjKvTo/a6214825952404603d1f7de12a84cf8a/CA.png",
+            "details": {
+              "size": 133659,
+              "image": {
+                "width": 225,
+                "height": 225
+              }
+            },
+            "fileName": "CA.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "5diwPUrH6QLKOrtDaXkvEx",
+        "type": "Asset",
+        "createdAt": "2021-01-07T19:21:56.444Z",
+        "updatedAt": "2021-01-07T19:23:06.483Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-01-07T19:23:06.483Z",
+        "firstPublishedAt": "2021-01-07T19:23:06.483Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Nikka Yoichi"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/gn2l3gh3dubi/5diwPUrH6QLKOrtDaXkvEx/36f46cfd450b148859138289972215f7/Nikka-Yoichi.png",
+            "details": {
+              "size": 34204,
+              "image": {
+                "width": 200,
+                "height": 200
+              }
+            },
+            "fileName": "Nikka-Yoichi.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "5bu0cK0aFKeqxc7TYpXS7T",
+        "type": "Asset",
+        "createdAt": "2021-01-07T19:35:08.779Z",
+        "updatedAt": "2021-01-07T19:35:32.273Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-07T19:35:32.273Z",
+        "firstPublishedAt": "2021-01-07T19:35:32.273Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Longmom 16 Years"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/gn2l3gh3dubi/5bu0cK0aFKeqxc7TYpXS7T/4b67b2c547bd4e17f8e47bcefafae1fb/Longmorn.png",
+            "details": {
+              "size": 52089,
+              "image": {
+                "width": 200,
+                "height": 200
+              }
+            },
+            "fileName": "Longmorn.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "id": "3Rsla8fgmv8GtL0Af5l89C",
+        "type": "Asset",
+        "createdAt": "2021-01-07T19:37:51.372Z",
+        "updatedAt": "2021-01-07T19:38:04.976Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-01-07T19:38:04.976Z",
+        "firstPublishedAt": "2021-01-07T19:38:04.976Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Ben Riach Matured in Sherry Wood 12 Years"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/gn2l3gh3dubi/3Rsla8fgmv8GtL0Af5l89C/6a618a1ffda72d66c83f78dbd551715b/Ben_Riach_Matured_in_Sherry_Wood_12_Years.png",
+            "details": {
+              "size": 48261,
+              "image": {
+                "width": 200,
+                "height": 200
+              }
+            },
+            "fileName": "Ben Riach Matured in Sherry Wood 12 Years.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "German (Germany)",
+      "code": "de-DE",
+      "fallbackCode": "en-US",
+      "default": false,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "7vCCP73eFDTpAmbd0pHsst",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "17365fa4-5b95-414b-9d5e-a68e96df487f"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "createdAt": "2020-11-13T17:31:19Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedAt": "2020-11-13T17:31:19Z"
+      }
+    },
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "7t9j6F80QmDd1jGgPu1BjV",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "17365fa4-5b95-414b-9d5e-a68e96df487f"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "createdAt": "2020-11-13T17:31:16Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedAt": "2020-11-13T17:31:16Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "7t9PTzQFjDIYlmwED9oU4n",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "gn2l3gh3dubi"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "createdAt": "2020-11-13T17:31:16Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7erXh0oL5DK33k8VzBvV4a"
+          }
+        },
+        "updatedAt": "2020-11-13T17:31:16Z"
+      }
+    }
+  ]
+}
