@@ -1,7 +1,7 @@
 import axios from "axios";
 
 import {
-  normalizeWhiskey,
+  normalizeWhisky,
   normalizeBoardMember,
   normalizeNextEvent,
 } from "./models";
@@ -14,7 +14,7 @@ function normalizeEntries(entries, normalizeFunc) {
 
 export async function getAllWhiskeysInStock() {
   const entries = await client.get("/whiskeysInStock");
-  return normalizeEntries(entries.data, normalizeWhiskey);
+  return normalizeEntries(entries.data, normalizeWhisky);
 }
 
 export async function getAllBoardMembers() {
@@ -43,7 +43,7 @@ export async function getNextEvent() {
 //   accessToken: 'iLlQWwVeXwZ3GBi20g2r8kWZY7lT_Yxy9-TUeK5cJg8',
 // });
 // const previewClient = createClient({
-//   space: process.env.CONTENTFUL_SPACE_ID,
+//   space: process.env.CONTENTFUL_REACT_APP_SPACE_ID,
 //   accessToken: process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN,
 //   host: 'preview.contentful.com',
 // })

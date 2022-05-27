@@ -1,11 +1,11 @@
 import { documentToHtmlString } from "@contentful/rich-text-html-renderer";
 
-export function normalizeWhiskey({ fields }) {
+export function normalizeWhisky({ fields }) {
   return {
     name: fields.name,
     image: fields.image?.fields.file || "",
     moreInfo: fields.moreInfo || "",
-    price: fields.price || "0",
+    price: fields.price || 0,
     finnish: documentToHtmlString(fields.finnish) || "",
     area: fields.area || "",
     volume: fields.volume || "70",

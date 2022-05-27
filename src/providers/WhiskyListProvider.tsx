@@ -6,11 +6,13 @@ import {
   useState,
   ReactNode,
 } from "react";
-import { getAllWhiskeysInStock } from "utils/api";
+
+import { getAllWhiskeysInStock } from "utils/contentfulApi";
+import { normalizeWhisky } from "utils/models";
 
 type WhiskyValue = [] | undefined;
 
-const initialValue: WhiskyValue = [];
+const initialValue: WhiskyValue = undefined;
 
 const WhiskyContext: Context<WhiskyValue> = createContext(initialValue);
 
@@ -20,16 +22,22 @@ const WhiskyListProvider: React.FC<{
   const [whiskyList, setWhiskyList] = useState<WhiskyValue>(initialValue);
 
   useEffect(() => {
+    if (whiskyList) return;
+
     const fetchData = async () => {
       try {
         const response = await getAllWhiskeysInStock();
-        setWhiskyList(response);
+        const normalizedData = response.items.map((item: any) =>
+          normalizeWhisky(item)
+        );
+
+        setWhiskyList(normalizedData);
       } catch (err) {
         console.error("Could not fetch all whiskeys,", err);
       }
     };
     fetchData();
-  }, []);
+  }, [whiskyList]);
 
   return (
     <WhiskyContext.Provider value={whiskyList}>

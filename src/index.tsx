@@ -1,27 +1,28 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import WhiskyListProvider from "providers/WhiskyListProvider";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import OldMeetups from "pages/OldMeetups";
-import Nav from "organisms/Nav";
+
 import Footer from "molecules/Footer";
+import Nav from "organisms/Nav";
+import { Home, OldMeetups } from "pages/index";
+import PageProviders from "providers/PageProviders";
+
+import reportWebVitals from "./reportWebVitals";
+import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <WhiskyListProvider>
+    <PageProviders>
       <BrowserRouter>
         <Nav />
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/" element={<Home />} />
           <Route path="old-meetups" element={<OldMeetups />} />
         </Routes>
         <Footer />
       </BrowserRouter>
-    </WhiskyListProvider>
+    </PageProviders>
   </React.StrictMode>
 );
 
