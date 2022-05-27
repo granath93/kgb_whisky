@@ -7,12 +7,9 @@ const app = express();
 
 const port = process.env.PORT || 3001;
 
-const space = process.env.SPADE_ID;
-const accessToken = process.env.CONTENTFUL_ACCESS_TOKEN;
-
 const client = contentful.createClient({
-  space,
-  accessToken,
+  space: process.env.SPACE_ID,
+  accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
 });
 
 app.get("/whiskeysInStock", async (req, res) => {
